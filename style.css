@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #2874f0;
+    height: 8vh;
+    /* position: fixed; */
+}
+.logo{
+    transform: translateX(100px);
+    margin-top: 8px;
+     
+    
+}
+.logo_para{
+    color: white;
+    font-size: 11px;
+    font-style: italic;
+}
+span{
+    color: yellow;
+    font-size: 11px;
+    font-style: italic;
+}
+.search{
+    margin-top: 9px;
+    
+} 
+ input{
+    width: 100%;
+    border-radius: 2px 0px 0px 2px;
+    border: none;
+    outline: none;
+    padding: 0 16px;
+    height: 5vh;
+    font-size: 14px;
+} 
+.fa-search{
+    transform: translate(-50px, 14px);
+    color: #2874f0;
+    cursor: pointer;
+}
+.login{
+    padding: 1px 32px;
+    background-color: white ;
+    color: #2874f0 !important;
+    font-weight: 500;
+    font-family: system-ui;
+    transform: translate(-157px, 10px);
+    border-radius: 0px;
+}
+.fa-shopping-cart{
+    color: white;
+   
+}
+.categrcies{
+ margin-left: 30px;
+
+}
+
+.more{
+    color: white;
+    font-weight: 600;
+    transform: translate(-100px,10px);
+    cursor: pointer;
+  
+}
+.Cart{
+    transform: translate(-99px, 10px);
+    color: white;
+    font-weight: 600;
+} 
+.fa-chevron-down{
+    margin-left: 5px;
+    font-size: 10px;
+    cursor: pointer;
+}
+.cate_para{
+    font-size: 13px;
+    font-weight: bold;
+    transform: translateX(13px);
+    text-transform: capitalize;
+}
+.ads{
+    transform: translateY(-40px);
+    box-shadow: 20px 10px 5px white;
+}
+.offer_para{
+    color: green;
+    margin-bottom: 3px;
+}
+.deals_para{
+    color: gray;
+   
+}
